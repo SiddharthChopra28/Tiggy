@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Reggae+One&family=Sigmar+One&display=swap" rel="stylesheet">
+
+  <title>Tiggy</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(255,90,23);">
+
+    <div class="container-fluid">
+
+      <a class="navbar-brand" href="/">Tiggy</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+
+      <span class="navbar-toggler-icon"></span>
+
+    </button>
+    
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <li class="nav-item">
+            <a class="nav-link active" href="/about">About us</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" href="/watch?query=Chhota_Bheem">Chhota Bheem</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" href="/watch?query=Titoo">Titoo</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" href="/watch?query=Peppa_Pig">Peppa Pig</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" href="/watch?query=Gummy_Bear">Gummy Bear</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" href="/watch?query=Roll_No_21">Roll No. 21</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" href="/watch?query=Smashing_Simmba">Smashing Simmba</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" href="/watch?query=Lambuji_Tinguji">Lambuji Tinguji</a>
+          </li>
+
+        </ul>
+
+        <form class="d-flex" method='GET' action='/watch'>
+          <input class="form-control me-2" type="search" name="query" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+
+      </div>
+      </div>
+    </div>
+  </nav>
+
+  {% block content %}
+  {% endblock %}
+
+  
+</body>
+</html>

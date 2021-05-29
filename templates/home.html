@@ -1,0 +1,92 @@
+{% extends "base.html" %}
+{% block content %}
+<style>
+    .about{
+    padding-left: 40px;
+    }
+    .heading{
+    font-family: 'Sigmar One', cursive;
+    padding-top: 20px;
+    text-align: left;
+    font-size: 50px;
+    }
+    .img-primary {
+    padding-top: 20px;
+    max-width: 35%;
+    height: auto;
+    float:left;
+    display: block;
+    }
+
+    .img-primary-desc {
+    font-family: 'Reggae One', cursive;
+    font-size: 40px;
+    padding-top: 80px;
+    padding-left: 130px;
+    float:left;
+    }
+    .img-secondary {
+    clear: both;
+    padding-left: 0px;
+    padding-top: 100px;
+    max-width: 40%;
+    height: auto;
+    float:left;
+    display: block;
+    }
+    .img-secondary-desc {
+    font-family: 'Reggae One', cursive;
+    font-size: 40px;
+    padding-top: 200px;
+    padding-left: 130px;
+    float:left;
+    }
+    .anything{
+    clear:both;
+    padding-bottom: 100px;
+    font-family: 'Reggae One', cursive;
+    font-size: 40px;
+    padding-top: 100px;
+    padding-left: 130px;
+    float:left;
+
+    }
+
+</style>
+<div class="about">
+<div class=heading>Special Characters on Tiggy:</div><br><br>
+
+<a href="/watch?query=Chhota_Bheem"> 
+<img src="/static/bheem.png" class = "img-primary">
+<p class = img-primary-desc>- Chhota Bheem!</p> </a>
+
+<a href="/watch?query=Titoo">
+<img src="/static/titoo.png" class = "img-secondary">
+<p class = img-secondary-desc>- Titoo!</p> </a>
+
+<a href="/watch?query=Peppa_Pig">
+<img src="/static/peppapig.png" class = "img-secondary">
+<p class = img-secondary-desc>- Peppa Pig!</p> </a>
+
+<a href="/watch?query=Gummy_Bear">
+<img src="/static/gummybear.png" class = "img-secondary" style="padding-left: 30px;">
+<p class = img-secondary-desc>- Gummy Bear!</p> </a>
+
+<a href="/watch?query=Roll_No_21">
+<img src="/static/rollno21.png" class = "img-secondary" style="padding-left: 80px;">
+<p class = img-secondary-desc>- Roll. No. 21!</p> </a>
+
+<a href="/watch?query=Smashing_Simmba">
+<img src="/static/simmba.png" class = "img-secondary" style="padding-left: 30px;">
+<p class = img-secondary-desc>- Smashing Simmba!</p> </a>
+
+<a href="/watch?query=Lambuji_Tinguji">
+<img src="/static/lambutingu.png" class = "img-secondary" style="padding-left: 80px;">
+<p class = img-secondary-desc>- LambuG & TinguG!</p> </a>
+
+<p class = anything> And many more you can think of!</p>
+
+</div>
+  
+{% endblock %}
+  
