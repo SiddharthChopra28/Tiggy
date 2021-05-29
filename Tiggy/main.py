@@ -40,5 +40,5 @@ def watch():
     return render_template("watch.html")
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
 
