@@ -1,2 +1,2 @@
 # Tiggy
-Website for watching cartoons and anything else!
+Website for watching cartoons and everything else!
