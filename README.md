@@ -1,2 +1,2 @@
 # Tiggy
-Website for watching cartoons and everything else!
+Simple Flask website for watching cartoons and everything else!
